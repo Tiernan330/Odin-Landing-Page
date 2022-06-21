@@ -1,0 +1,248 @@
+body {
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 16px;
+}
+
+.logo{
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li a{
+    color: #e5e7eb;
+    font-size: 18px;
+    padding-right: 16px;
+    text-decoration: none;
+}
+
+
+.footer{
+    background-color: #1F2937;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: auto;
+    color: #f9faf8;
+    padding: 24px;
+}
+
+.body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100%;
+    flex-grow: 1;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.hero{
+    display: flex;
+    flex-direction: row;
+    background-color: #1F2937;
+    flex-grow: 1;
+    justify-content: space-evenly;
+    padding: 24px;
+    padding-bottom: 128px;
+}
+
+.sign-up-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 20%;
+}
+
+.main-text{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.secondary{
+    color: #e5e7eb;
+    font-size: 18px;
+    word-wrap: normal;
+}
+
+.sign-up{
+    margin-top: 15px;
+}
+
+.sign-up a{
+    background-color: #3882f6;
+    align-items: center;
+    color: #e5e7eb;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 5px;
+}
+
+.image{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+}
+
+.placeholder{
+    background-color: gray;
+    color: white;
+    padding: 20%;
+    width: 45%;
+    height: 1%;
+}
+
+.random-info{
+    padding-bottom: 64px;
+}
+
+.information-title{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px;
+}
+
+.inner-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 180px;
+    padding: 24px;
+}
+
+.box .image{
+    width: 180px;
+    height: 180px;
+    border: solid;
+    border-color: #3882f6;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subtext{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 18px;
+}
+
+.quote-box{
+    display: flex;
+    flex: 1;
+    background-color: #e5e7eb;
+    justify-content: center;
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+
+.quote-parent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 30%;
+    padding: 48px;
+}
+
+
+.quote{
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+}
+
+.quoted{
+    font-weight: bold;
+    text-align: right;
+}
+
+.action-parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 64px 128px 64px 128px;
+}
+
+.action{
+    display: flex;
+    flex-direction: row;
+    background-color: #3882f6;
+    border-radius: 10px;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+    padding: 48px;
+}
+
+.call-to-action{
+    display: flex;
+    flex-direction: column;
+    padding-left: 64px;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.cta-text{
+    font-weight: bolder;
+    font-size: 24px;
+}
+
+.cta-sign-up a{
+    margin: 0;
+    background-color: #3882f6;
+    align-items: center;
+    color: #e5e7eb;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: bold;
+    border: solid;
+    border-color: #e5e7eb;
+    border-radius: 5px;
+    padding: 3px 24px 3px 24px;
+}
+
+.cta-sign-up{
+    padding-right: 64px;
+}
